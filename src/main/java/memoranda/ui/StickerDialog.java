@@ -196,12 +196,6 @@ public class StickerDialog extends JDialog {
 				underlineButton_actionPerformed(e);
 			}
 		});
-		unorderedListButton.setText("* "+Local.getString("List"));
-		unorderedListButton.addActionListener(new java.awt.event.ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				unorderedListButton_actionPerformed(e);
-			}
-		});
 		bottomPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
 		topPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 		topPanel.setBorder(new EmptyBorder(new Insets(0, 5, 0, 5)));

@@ -80,7 +80,7 @@ public class JNCalendarCellRenderer extends javax.swing.table.DefaultTableCellRe
             label.setForeground(new Color(255, 0, 0));
         }
 		else { 		
-			label.setForeground(Color.BLACK);
+			label.setForeground(Color.GREEN);
 		}
 
 		// set background color
